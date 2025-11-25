@@ -265,7 +265,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // skift mellem flat og big pufferfish
       if (puffish3.src.includes("flat-pufferfish-swim.gif")) {
         puffish3.src = "img/big-pufferfish-swim.gif";
-        poofSound();
+        poofSound.play();
       } else {
         puffish3.src = "img/flat-pufferfish-swim.gif";
         puffSound.play();
