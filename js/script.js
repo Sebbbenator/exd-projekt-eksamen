@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // informations overlay
 
-  // Informations overlay - Cille
+  // Informations overlay
   const fishInfo = [
     {
       className: "pufpuf",
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  //Bagrundsmusik - Cille
+  //Bagrundsmusik
 
   const mediBackgroundMusic = document.getElementById("medi-backgroundMusic");
 
