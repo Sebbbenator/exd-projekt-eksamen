@@ -665,9 +665,9 @@ header {
 
 #seashell-closed {
   position: absolute;
-  bottom: 5vh;
+  bottom: 7vh;
   width: 150px;
-  left: 25px;
+  left: 65px;
   max-width: 28vw;
   z-index: 1;
   cursor: pointer;
