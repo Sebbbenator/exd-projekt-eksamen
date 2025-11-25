@@ -1,5 +1,33 @@
-/* Global styles og reset */
+/* CSS Variabler er tilføjet som optimering af projekt */
+:root {
+  /* Primære farver */
+  --primary-blue: #003d7a;
+  --ocean-cyan: #00a8cc;
+  --ocean-blue: #0077b6;
+  --coral-red: #ff6b6b;
+  --orange: #ffa500;
+  --red: #ff4757;
+  --gold: #ffd700;
+  
+  /* Gradienter */
+  --gradient-button: linear-gradient(135deg, #ff6b6b, #ffa500);
+  --gradient-menu: linear-gradient(180deg, #00a8cc, #0077b6);
+  
+  /* Font */
+  --primary-font: "Comic Sans MS", cursive, sans-serif;
+  
+  /* Transitions & timing */
+  --transition-fast: 0.3s ease;
+  --transition-medium: 0.6s ease-out;
+  --transition-slow: 1s ease-out;
+  
+  /* Spacing */
+  --border-radius-large: 40px;
+  --border-radius-medium: 30px;
+  --border-radius-small: 20px;
+}
 
+/* Global styles og reset */
 * {
   margin: 0;
   padding: 0;
