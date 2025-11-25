@@ -9,220 +9,227 @@
   </head>
   <body>
     <!-- Intro skærm med Nemo -->
-    <div id="nemoIntro" class="nemo-intro">
+    <aside id="nemoIntro" class="nemo-intro">
       <img src="img/talknemofish.gif" alt="Nemo taler" class="nemo-intro-gif" />
-      <div class="intro-speech-bubble">Klik på mig!</div>
-    </div>
+      <p class="intro-speech-bubble">Klik på mig!</p>
+    </aside>
 
     <header>
-      <button id="spilMenuBtn">Spil</button>
-      <div id="gameMenu" class="game-menu">
-        <div class="menu-content">
-          <button id="closeMenu" class="close-btn">✕</button>
+      <nav>
+        <button id="spilMenuBtn">Spil</button>
+        <div id="gameMenu" class="game-menu">
+          <div class="menu-content">
+            <button id="closeMenu" class="close-btn">✕</button>
 
-          <div class="mascot-section">
-            <div class="speech-bubble">Vælg et spil!</div>
-            <img
-              src="img/Nemo-fish.png"
-              alt="Maskot fisk"
-              class="mascot-fish"
-              id="menuMascot"
-            />
-          </div>
+            <div class="mascot-section">
+              <p class="speech-bubble">Vælg et spil!</p>
+              <img
+                src="img/Nemo-fish.png"
+                alt="Maskot fisk"
+                class="mascot-fish"
+                id="menuMascot"
+              />
+            </div>
 
-          <div class="game-cards">
-            <a href="html/game.html" class="game-card">
-              <div class="card-image">
-                <img src="img/game1.png" alt="Spil 1" />
-              </div>
-              <h2>Akvarie Eventyr</h2>
-            </a>
+            <nav class="game-cards">
+              <article class="game-card">
+                <a href="html/game.html">
+                  <figure class="card-image">
+                    <img src="img/game1.png" alt="Spil 1" />
+                  </figure>
+                  <h2>Akvarie Eventyr</h2>
+                </a>
+              </article>
 
-            <a href="html/game-2.html" class="game-card">
-              <div class="card-image">
-                <img src="img/game2.png" alt="Spil 2" />
-              </div>
-              <h2>Akvarie Spillet</h2>
-            </a>
+              <article class="game-card">
+                <a href="html/game-2.html">
+                  <figure class="card-image">
+                    <img src="img/game2.png" alt="Spil 2" />
+                  </figure>
+                  <h2>Akvarie Spillet</h2>
+                </a>
+              </article>
 
-            <a href="html/game-3.html" class="game-card">
-              <div class="card-image">
-                <img src="img/game3.png" alt="Spil 3" />
-              </div>
-              <h2>Sortér Fiskene</h2>
-            </a>
+              <article class="game-card">
+                <a href="html/game-3.html">
+                  <figure class="card-image">
+                    <img src="img/game3.png" alt="Spil 3" />
+                  </figure>
+                  <h2>Sortér Fiskene</h2>
+                </a>
+              </article>
+            </nav>
           </div>
         </div>
-      </div>
+      </nav>
     </header>
 
-    <!-- Cilles HTML start -->
 
     <audio id="medi-backgroundMusic" loop>
       <source src="audio/chillax.mp3" type="audio/mp3" />
     </audio>
 
-    <section class="behind">
-      <div id="bgimage"></div>
-    </section>
+    <main>
+      <section class="behind">
+        <div id="bgimage"></div>
+      </section>
 
-    <section id="fish">
-      <div id="pufferfish">
-        <img
-          src="img/flat-pufferfish-swim.gif"
-          alt="pufferfish"
-          id="puffish"
-          class="pufpuf"
-        />
-      </div>
+      <section id="fish">
+        <figure id="pufferfish">
+          <img
+            src="img/flat-pufferfish-swim.gif"
+            alt="pufferfish"
+            id="puffish"
+            class="pufpuf"
+          />
+        </figure>
 
-      <div id="tuxedo">
-        <img
-          src="img/tuxedo-fish.gif"
-          alt="tuxedo damsel fish"
-          id="tuxfish"
-          class="tuxie"
-        />
-      </div>
+        <figure id="tuxedo">
+          <img
+            src="img/tuxedo-fish.gif"
+            alt="tuxedo damsel fish"
+            id="tuxfish"
+            class="tuxie"
+          />
+        </figure>
 
-      <div id="blue-pink">
-        <img
-          src="img/BluefishDONE.gif"
-          alt="blue and pink fish"
-          id="bpfish"
-          class="diskus"
-        />
-      </div>
+        <figure id="blue-pink">
+          <img
+            src="img/BluefishDONE.gif"
+            alt="blue and pink fish"
+            id="bpfish"
+            class="diskus"
+          />
+        </figure>
 
-      <div id="orange-fish">
-        <img
-          src="img/OrangefishDONE.gif"
-          alt="orange fish"
-          id="ogfish"
-          class="orangy"
-        />
-      </div>
+        <figure id="orange-fish">
+          <img
+            src="img/OrangefishDONE.gif"
+            alt="orange fish"
+            id="ogfish"
+            class="orangy"
+          />
+        </figure>
 
-      <div id="horsea">
-        <img
-          src="img/seahorsefish.gif"
-          alt="seahorse"
-          id="seahorse"
-          class="thereHorse"
-        />
-      </div>
-    </section>
+        <figure id="horsea">
+          <img
+            src="img/seahorsefish.gif"
+            alt="seahorse"
+            id="seahorse"
+            class="thereHorse"
+          />
+        </figure>
+      </section>
 
-    <section id="fish2">
-      <div id="pufferfish2">
-        <img
-          src="img/flat-pufferfish-swim.gif"
-          alt="pufferfish"
-          id="puffish2"
-          class="pufpuf"
-        />
-      </div>
+      <section id="fish2">
+        <figure id="pufferfish2">
+          <img
+            src="img/flat-pufferfish-swim.gif"
+            alt="pufferfish"
+            id="puffish2"
+            class="pufpuf"
+          />
+        </figure>
 
-      <div id="tuxedo2">
-        <img
-          src="img/tuxedo-fish.gif"
-          alt="tuxedo damsel fish"
-          id="tuxfish2"
-          class="tuxie"
-        />
-      </div>
+        <figure id="tuxedo2">
+          <img
+            src="img/tuxedo-fish.gif"
+            alt="tuxedo damsel fish"
+            id="tuxfish2"
+            class="tuxie"
+          />
+        </figure>
 
-      <div id="blue-pink2">
-        <img
-          src="img/BluefishDONE.gif"
-          alt="blue and pink fish"
-          id="bpfish2"
-          class="diskus lefty"
-        />
-      </div>
+        <figure id="blue-pink2">
+          <img
+            src="img/BluefishDONE.gif"
+            alt="blue and pink fish"
+            id="bpfish2"
+            class="diskus lefty"
+          />
+        </figure>
 
-      <div id="orange-fish2">
-        <img
-          src="img/OrangefishDONE.gif"
-          alt="orange fish"
-          id="ogfish2"
-          class="orangy"
-        />
-      </div>
+        <figure id="orange-fish2">
+          <img
+            src="img/OrangefishDONE.gif"
+            alt="orange fish"
+            id="ogfish2"
+            class="orangy"
+          />
+        </figure>
 
-      <div id="horsea2">
-        <img
-          src="img/seahorsefish.gif"
-          alt="seahorse"
-          id="seahorse2"
-          class="thereHorse righty"
-        />
-      </div>
-    </section>
+        <figure id="horsea2">
+          <img
+            src="img/seahorsefish.gif"
+            alt="seahorse"
+            id="seahorse2"
+            class="thereHorse righty"
+          />
+        </figure>
+      </section>
 
-    <section id="fish3">
-      <div id="pufferfish3">
-        <img
-          src="img/flat-pufferfish-swim.gif"
-          alt="pufferfish"
-          id="puffish3"
-          class="pufpuf"
-        />
-      </div>
+      <section id="fish3">
+        <figure id="pufferfish3">
+          <img
+            src="img/flat-pufferfish-swim.gif"
+            alt="pufferfish"
+            id="puffish3"
+            class="pufpuf"
+          />
+        </figure>
 
-      <div id="tuxedo3">
-        <img
-          src="img/tuxedo-fish.gif"
-          alt="tuxedo damsel fish"
-          id="tuxfish3"
-          class="tuxie"
-        />
-      </div>
+        <figure id="tuxedo3">
+          <img
+            src="img/tuxedo-fish.gif"
+            alt="tuxedo damsel fish"
+            id="tuxfish3"
+            class="tuxie"
+          />
+        </figure>
 
-      <div id="blue-pink3">
-        <img
-          src="img/BluefishDONE.gif"
-          alt="blue and pink fish"
-          id="bpfish3"
-          class="diskus"
-          class="diskus"
-        />
-      </div>
+        <figure id="blue-pink3">
+          <img
+            src="img/BluefishDONE.gif"
+            alt="blue and pink fish"
+            id="bpfish3"
+            class="diskus"
+          />
+        </figure>
 
-      <div id="horsea3">
-        <img
-          src="img/seahorsefish.gif"
-          alt="seahorse"
-          id="seahorse3"
-          class="thereHorse"
-        />
-      </div>
+        <figure id="horsea3">
+          <img
+            src="img/seahorsefish.gif"
+            alt="seahorse"
+            id="seahorse3"
+            class="thereHorse"
+          />
+        </figure>
 
-      <div id="orange-fish3">
-        <img
-          src="img/OrangefishDONE.gif"
-          alt="orange fish"
-          id="ogfish3"
-          class="orangy"
-        />
-      </div>
-    </section>
+        <figure id="orange-fish3">
+          <img
+            src="img/OrangefishDONE.gif"
+            alt="orange fish"
+            id="ogfish3"
+            class="orangy"
+          />
+        </figure>
+      </section>
 
-    <section class="treasure">
-      <div id="chest">
-        <img src="img/kiste.png" alt="treasure chest" id="treasure-chest" />
-        <img src="img/tang1.png" alt="seaweed" id="seaweed" />
-      </div>
-    </section>
+      <section class="treasure">
+        <figure id="chest">
+          <img src="img/kiste.png" alt="treasure chest" id="treasure-chest" />
+          <img src="img/tang1.png" alt="seaweed" id="seaweed" />
+        </figure>
+      </section>
 
-    <section class="shell">
-      <div id="shelly">
-        <img src="img/musLuk.png" alt="sea shell" id="seashell-closed" />
-      </div>
-    </section>
+      <section class="shell">
+        <figure id="shelly">
+          <img src="img/musLuk.png" alt="sea shell" id="seashell-closed" />
+        </figure>
+      </section>
+    </main>
 
-    <div id="fishfacts" class="fiskefakta"></div>
-
+    <aside id="fishfacts" class="fiskefakta"></aside>
 
     <script src="js/script.js"></script>
   </body>
