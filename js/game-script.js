@@ -59,7 +59,7 @@ function playClickSound() {
   if (clickSound) {
     clickSound.currentTime = 0;
     clickSound.volume = 0.5;
-    clickSound.play().catch((err) => {});
+    clickSound.play();
   }
 }
 
