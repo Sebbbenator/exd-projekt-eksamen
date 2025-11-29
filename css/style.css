@@ -200,6 +200,7 @@ header {
   justify-content: center;
 }
 
+/* Indsat for at vise jeg kan finde ud af at benytte mig af CSS transitions og transform og hover effekt  */
 .close-btn:hover {
   transform: rotate(90deg) scale(1.1);
   background: #ff3838;
@@ -277,13 +278,13 @@ header {
   margin-top: 30px;
 }
 
-/* Individual Game Card */
+/* Game cards til spil */
 .game-card {
   background: white;
   border-radius: var(--border-radius-medium);
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  transition: all 0.4s ease;
+  transition: all var(--transition-medium);
   cursor: pointer;
   text-decoration: none;
   border: 6px solid var(--gold);
@@ -318,15 +319,8 @@ header {
   object-fit: cover;
 }
 
-/* Placeholder for missing images */
-.card-image:empty::after {
-  content: "🐠";
-  font-size: 100px;
-  position: absolute;
-  animation: float 3s ease-in-out infinite;
-}
 
-/* Responsive design */
+/* Tilføjet for at vise jeg kan finde ud af at gøre noget responstivt */
 @media (max-width: 768px) {
   #spilMenuBtn {
     width: 100px;
