@@ -319,7 +319,6 @@ header {
   object-fit: cover;
 }
 
-
 /* Tilføjet for at vise jeg kan finde ud af at gøre noget responstivt */
 @media (max-width: 768px) {
   #spilMenuBtn {

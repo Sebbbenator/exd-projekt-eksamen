@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const mus = document.getElementById("seashell-closed");
 
   const musOpen = new Image();
-  musOpen.src = "img/musOpen.png";
+  musOpen.src = "img/musAben.svg";
 
   const musSound = new Audio();
   musSound.src = "audio/burp-kort.mp3";
@@ -207,13 +207,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (mus) {
     mus.addEventListener("click", function () {
-      // skift mellem musLuk.png og musOpen.png
-      if (mus.src.includes("musLuk.png")) {
-        mus.src = "img/musOpen.png";
+      // skift mellem mus.svg (lukket) og musAben.svg (åben)
+      if (mus.src.includes("mus.svg") || mus.src.includes("musLuk.png")) {
+        mus.src = "img/musAben.svg";
         musSound.play();
         createShellBubbles(); // lav bobler når muslingen åbner
       } else {
-        mus.src = "img/musLuk.png";
+        mus.src = "img/mus.svg";
       }
     });
   }
