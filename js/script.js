@@ -157,12 +157,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (tang) {
     tang.addEventListener("click", function () {
-      // skift mellem tang1.png og tang2.png
-      if (tang.src.includes("tang1.png")) {
-        tang.src = "img/tang2.png";
+      // skift mellem tang.svg og tangOpen.svg
+      if (tang.src.includes("tang.svg")) {
+        tang.src = "img/tangOpen.svg";
         tangSound.play();
       } else {
-        tang.src = "img/tang1.png";
+        tang.src = "img/tang.svg";
       }
     });
   }
