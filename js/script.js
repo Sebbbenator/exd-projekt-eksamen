@@ -157,9 +157,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (tang) {
     tang.addEventListener("click", function () {
-      // skift mellem tang.svg og tangOpen.svg
+      // skift mellem tang.svg og tangAben.svg
       if (tang.src.includes("tang.svg")) {
-        tang.src = "img/tangOpen.svg";
+        tang.src = "img/tangAben.svg";
         tangSound.play();
       } else {
         tang.src = "img/tang.svg";
