@@ -151,10 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const tangSound = new Audio();
   tangSound.src = "audio/gudLyd.mp3";
 
-  const tang2Image = new Image();
-  // preload tang2 billedet
-  tang2Image.src = "img/tang2.png";
-
+  
   if (tang) {
     tang.addEventListener("click", function () {
       // skift mellem tang.svg og tangAben.svg
