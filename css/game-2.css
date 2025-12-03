@@ -220,7 +220,7 @@ body::before {
   font-weight: bold;
 }
 
-/* Mad/Coin (mad) */
+/* skrald/Coin (skrald) */
 #coin {
   height: 60px;
   width: 60px;
@@ -251,7 +251,7 @@ body::before {
   }
 }
 
-/* Koraller/forhindringer */
+/* tang/forhindringer */
 .structure {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.03); /* Så man kan se tanget  */
