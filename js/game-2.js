@@ -12,12 +12,12 @@ const mascotSound = new Audio("../audio/spil2Lyd.m4a");
 
 if (startMascot) {
   // skift til gif når siden loader
-  startMascot.src = "../img/nemo-talk.gif";
+  startMascot.src = "../img/nemoTalk.gif";
   mascotSound.play();
 
   // skift tilbage til png når lyden er færdig
   mascotSound.addEventListener("ended", function () {
-    startMascot.src = "../img/Nemo-fish.png";
+    startMascot.src = "../img/nemoFish.png";
   });
 }
 

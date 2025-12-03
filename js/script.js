@@ -120,12 +120,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // skift til gif og afspil lyd
       if (menuMascot) {
-        menuMascot.src = "img/nemo-talk.gif";
+        menuMascot.src = "img/nemoTalk.gif";
         menuSound.play();
 
         // skift tilbage til png når lyden er færdig
         menuSound.addEventListener("ended", function () {
-          menuMascot.src = "img/Nemo-fish.png";
+          menuMascot.src = "img/nemoFish.png";
         });
       }
     });
