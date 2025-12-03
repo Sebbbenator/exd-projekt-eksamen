@@ -484,6 +484,18 @@ header {
   }
 }
 
+/* Tilføjet da der ellers var en fejl og den fyldte vildt meget af skærmen */
+#puffish3 {
+  position: absolute;
+  bottom: 72vh;
+  width: 160px;
+  max-width: 28vw;
+  z-index: 4;
+  right: calc(-1 * 200px);
+  animation: puffer3 14s linear infinite;
+  cursor: pointer;
+}
+
 #tuxfish2 {
   position: absolute;
   bottom: 55vh;
