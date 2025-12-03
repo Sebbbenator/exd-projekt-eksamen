@@ -201,8 +201,6 @@ body::before {
   z-index: 3;
   filter: drop-shadow(0 0 5px rgba(100, 200, 255, 0.6));
   outline: 1px solid rgba(255, 255, 255, 0.1);
-  /* background-color: tomato;  */
-  /* ovenstående indsættet for at se hitboks */
 }
 
 /* Score */
@@ -256,16 +254,15 @@ body::before {
 /* Koraller/forhindringer */
 .structure {
   position: absolute;
-  background: linear-gradient(135deg, #ff6b6b, #ff8787, #ffa07a);
-  border: 3px solid #ff4757;
-  box-shadow: 0 0 20px rgba(255, 100, 100, 0.4);
+  background-color: rgba(255, 255, 255, 0.03); /* Så man kan se tanget  */
+  background-image: url("../img/wall.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
   border-radius: 8px;
   transition: all 0.3s ease;
-}
-
-.structure:hover {
-  box-shadow: 0 0 25px rgba(255, 50, 50, 0.6);
-  border-color: #ff2e4d;
 }
 
 #wall1 {
