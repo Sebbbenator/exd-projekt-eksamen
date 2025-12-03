@@ -30,7 +30,7 @@ let fishInterval;
 const fishImages = [
   "../img/BluefishDONE.gif",
   "../img/orangeFisk.gif",
-  "../img/big-pufferfish-swim.gif",
+  "../img/pufferFiskStor.gif",
   "../img/damsel-fish-swim.gif",
   "../img/pufferFiskLille.gif",
   "../img/tuxedo-fish.gif",
