@@ -28,7 +28,7 @@ let fishInterval;
 
 // Fiske billeder
 const fishImages = [
-  "../img/BluefishDONE.gif",
+  "../img/blaaFisk.gif",
   "../img/orangeFisk.gif",
   "../img/pufferFiskStor.gif",
   "../img/damselFisk.gif",
