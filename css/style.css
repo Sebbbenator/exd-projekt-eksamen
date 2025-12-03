@@ -361,7 +361,7 @@ header {
 #puffish {
   position: absolute;
   bottom: 35vh;
-  width: 150px;
+  width: 110px;
   max-width: 28vw;
   z-index: 4;
   right: calc(-1 * 200px);
@@ -382,7 +382,7 @@ header {
 #tuxfish {
   position: absolute;
   bottom: 20vh;
-  width: 300px;
+  width: 200px;
   max-width: 28vw;
   z-index: 4;
   left: calc(-1 * 200px);
@@ -403,7 +403,7 @@ header {
 #bpfish {
   position: absolute;
   bottom: 5vh;
-  width: 250px;
+  width: 170px;
   max-width: 28vw;
   z-index: 4;
   left: calc(-1 * 200px);
@@ -424,7 +424,7 @@ header {
 #orange {
   position: absolute;
   bottom: 12vh;
-  width: 200px;
+  width: 140px;
   max-width: 28vw;
   z-index: 4;
   right: calc(-1 * 200px);
@@ -466,7 +466,7 @@ header {
 #puffish2 {
   position: absolute;
   bottom: 60vh;
-  width: 180px;
+  width: 130px;
   max-width: 28vw;
   z-index: 4;
   left: calc(-1 * 200px);
@@ -488,7 +488,7 @@ header {
 #puffish3 {
   position: absolute;
   bottom: 72vh;
-  width: 160px;
+  width: 120px;
   max-width: 28vw;
   z-index: 4;
   right: calc(-1 * 200px);
@@ -499,7 +499,7 @@ header {
 #tuxfish2 {
   position: absolute;
   bottom: 55vh;
-  width: 250px;
+  width: 180px;
   max-width: 28vw;
   z-index: 4;
   right: calc(-1 * 200px);
@@ -520,7 +520,7 @@ header {
 #bpfish2 {
   position: absolute;
   bottom: 40vh;
-  width: 300px;
+  width: 190px;
   max-width: 28vw;
   z-index: 4;
   right: calc(-1 * 200px);
@@ -541,7 +541,7 @@ header {
 #orange2 {
   position: absolute;
   bottom: 30vh;
-  width: 275px;
+  width: 180px;
   max-width: 28vw;
   z-index: 4;
   left: calc(-1 * 200px);
@@ -583,7 +583,7 @@ header {
 #orange3 {
   position: absolute;
   bottom: 4vh;
-  width: 165px;
+  width: 120px;
   max-width: 28vw;
   z-index: 4;
   right: calc(-1 * 200px);
@@ -604,7 +604,7 @@ header {
 #tuxfish3 {
   position: absolute;
   bottom: 10vh;
-  width: 220px;
+  width: 160px;
   max-width: 28vw;
   z-index: 4;
   left: calc(-1 * 200px);
@@ -625,7 +625,7 @@ header {
 #bpfish3 {
   position: absolute;
   bottom: 70vh;
-  width: 500px;
+  width: 200px;
   max-width: 28vw;
   z-index: 4;
   left: calc(-1 * 200px);
