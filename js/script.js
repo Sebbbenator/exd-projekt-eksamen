@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
 
     {
-      className: "orangy",
+      className: "orangeFish",
       navn: "Afrikanske Juvel Cichlide",
       leveTid: "7-15 år",
       funFact:
@@ -151,7 +151,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const tangSound = new Audio();
   tangSound.src = "audio/gudLyd.mp3";
 
-  
   if (tang) {
     tang.addEventListener("click", function () {
       // skift mellem tang.svg og tangAben.svg
@@ -291,17 +290,17 @@ document.addEventListener("DOMContentLoaded", () => {
     tuxieDiv.addEventListener("click", toggleTux);
   });
 
-  const orangies = document.querySelectorAll(".orangy");
+  const orangeFishes = document.querySelectorAll(".orangeFish");
   const bobbles = new Audio();
   bobbles.src = "audio/bobler1.mp3";
 
-  orangies.forEach((orangy) => {
-    orangy.addEventListener("click", () => {
-      orangy.style.animationDuration = "1s";
+  orangeFishes.forEach((orangeFishEl) => {
+    orangeFishEl.addEventListener("click", () => {
+      orangeFishEl.style.animationDuration = "1s";
       bobbles.play();
 
       setTimeout(() => {
-        orangy.style.animationDuration = "";
+        orangeFishEl.style.animationDuration = "";
       }, 7000);
     });
   });
