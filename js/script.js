@@ -233,11 +233,11 @@ document.addEventListener("DOMContentLoaded", () => {
   if (puffish) {
     puffish.addEventListener("click", function () {
       // skift mellem flat og big pufferfish
-      if (puffish.src.includes("flat-pufferfish-swim.gif")) {
+      if (puffish.src.includes("pufferFiskLille.gif")) {
         puffish.src = "img/big-pufferfish-swim.gif";
         poofSound.play();
       } else {
-        puffish.src = "img/flat-pufferfish-swim.gif";
+        puffish.src = "img/pufferFiskLille.gif";
         puffSound.play();
       }
     });
@@ -246,11 +246,11 @@ document.addEventListener("DOMContentLoaded", () => {
   if (puffish2) {
     puffish2.addEventListener("click", function () {
       // skift mellem flat og big pufferfish
-      if (puffish2.src.includes("flat-pufferfish-swim.gif")) {
+      if (puffish2.src.includes("pufferFiskLille.gif")) {
         puffish2.src = "img/big-pufferfish-swim.gif";
         poofSound.play();
       } else {
-        puffish2.src = "img/flat-pufferfish-swim.gif";
+        puffish2.src = "img/pufferFiskLille.gif";
         puffSound.play();
       }
     });
@@ -259,11 +259,11 @@ document.addEventListener("DOMContentLoaded", () => {
   if (puffish3) {
     puffish3.addEventListener("click", function () {
       // skift mellem flat og big pufferfish
-      if (puffish3.src.includes("flat-pufferfish-swim.gif")) {
+      if (puffish3.src.includes("pufferFiskLille.gif")) {
         puffish3.src = "img/big-pufferfish-swim.gif";
         poofSound.play();
       } else {
-        puffish3.src = "img/flat-pufferfish-swim.gif";
+        puffish3.src = "img/pufferFiskLille.gif";
         puffSound.play();
       }
     });

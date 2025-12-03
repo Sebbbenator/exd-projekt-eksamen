@@ -32,7 +32,7 @@ const fishImages = [
   "../img/orangeFisk.gif",
   "../img/big-pufferfish-swim.gif",
   "../img/damsel-fish-swim.gif",
-  "../img/flat-pufferfish-swim.gif",
+  "../img/pufferFiskLille.gif",
   "../img/tuxedo-fish.gif",
 ];
 
