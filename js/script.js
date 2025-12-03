@@ -277,10 +277,14 @@ document.addEventListener("DOMContentLoaded", () => {
   function toggleTux(tuxieToggle) {
     const tuxDam = tuxieToggle.currentTarget;
 
-    if (tuxDam.src.includes("tuxedo-fish.gif")) {
-      tuxDam.src = "img/damsel-fish-swim.gif";
+    if (
+      tuxDam.src.includes("damselFiskTuxedo.gif") ||
+      tuxDam.src.includes("tuxedo-fish.gif") ||
+      tuxDam.src.includes("damsel-fisk-swim.gif")
+    ) {
+      tuxDam.src = "img/damselFisk.gif";
     } else {
-      tuxDam.src = "img/tuxedo-fish.gif";
+      tuxDam.src = "img/damselFiskTuxedo.gif";
     }
 
     magicSound.play();

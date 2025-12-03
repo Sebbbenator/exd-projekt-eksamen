@@ -31,9 +31,9 @@ const fishImages = [
   "../img/BluefishDONE.gif",
   "../img/orangeFisk.gif",
   "../img/pufferFiskStor.gif",
-  "../img/damsel-fish-swim.gif",
+  "../img/damselFisk.gif",
   "../img/pufferFiskLille.gif",
-  "../img/tuxedo-fish.gif",
+  "../img/damselFiskTuxedo.gif",
 ];
 
 const backgroundMusic = new Audio("../audio/meditation.mp3");
