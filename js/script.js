@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // skift til gif og afspil lyd
       if (menuMascot) {
-        menuMascot.src = "img/talknemofish.gif";
+        menuMascot.src = "img/nemo-talk.gif";
         menuSound.play();
 
         // skift tilbage til png når lyden er færdig

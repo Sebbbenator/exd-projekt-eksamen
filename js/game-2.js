@@ -12,7 +12,7 @@ const mascotSound = new Audio("../audio/spil2Lyd.m4a");
 
 if (startMascot) {
   // skift til gif når siden loader
-  startMascot.src = "../img/talknemofish.gif";
+  startMascot.src = "../img/nemo-talk.gif";
   mascotSound.play();
 
   // skift tilbage til png når lyden er færdig
@@ -24,7 +24,6 @@ if (startMascot) {
 const backgroundMusic = new Audio("../audio/meditation.mp3");
 const coinSound = new Audio("../audio/escape.wav");
 const gameoverSound = new Audio("../audio/gameover_sound.m4a");
-
 
 // Funktion til at starte baggrundsmusik
 function playBackgroundMusic() {

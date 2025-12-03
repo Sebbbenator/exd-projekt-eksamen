@@ -13,7 +13,7 @@ const mascotSound = new Audio("../audio/spil1Lyd.m4a");
 
 if (startMascot) {
   // skift til gif når siden loader
-  startMascot.src = "../img/talknemofish.gif";
+  startMascot.src = "../img/nemo-talk.gif";
   mascotSound.play();
 
   // skift tilbage til png når lyden er færdig
