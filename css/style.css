@@ -14,7 +14,8 @@
   --gradient-menu: linear-gradient(180deg, #00a8cc, #0077b6);
 
   /* Font */
-  --primary-font: "Comic Sans MS", cursive, sans-serif;
+  --primary-font: "Apex New", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
   /* Transitions & timing */
   --transition-fast: 0.3s ease;
