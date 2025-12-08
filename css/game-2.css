@@ -190,7 +190,7 @@ body::before {
 
 /* scubadreng (dodger) */
 #dodger {
-  background-image: url("../img/scubidreng.svg");
+  background-image: url("../img/scubi-dreng.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -572,4 +572,3 @@ body::before {
   box-shadow: 0 6px 20px rgba(255, 107, 157, 0.4);
   font-weight: bold;
 }
-

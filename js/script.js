@@ -120,12 +120,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // skift til gif og afspil lyd
       if (menuMascot) {
-        menuMascot.src = "img/nemoTalk.gif";
+        menuMascot.src = "img/nemo-talk.gif";
         menuSound.play();
 
         // skift tilbage til png når lyden er færdig
         menuSound.addEventListener("ended", function () {
-          menuMascot.src = "img/nemoFish.png";
+          menuMascot.src = "img/nemo-fish.png";
         });
       }
     });
@@ -153,9 +153,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (tang) {
     tang.addEventListener("click", function () {
-      // skift mellem tang.svg og tangAben.svg
+      // skift mellem tang.svg og tang-aben.svg
       if (tang.src.includes("tang.svg")) {
-        tang.src = "img/tangAben.svg";
+        tang.src = "img/tang-aben.svg";
         tangSound.play();
       } else {
         tang.src = "img/tang.svg";
@@ -166,7 +166,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const mus = document.getElementById("seashell-closed");
 
   const musOpen = new Image();
-  musOpen.src = "img/musAben.svg";
+  musOpen.src = "img/mus-aben.svg";
 
   const musSound = new Audio();
   musSound.src = "audio/burp-kort.mp3";
@@ -203,9 +203,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (mus) {
     mus.addEventListener("click", function () {
-      // skift mellem mus.svg (lukket) og musAben.svg (åben)
+      // skift mellem mus.svg (lukket) og mus-aben.svg (åben)
       if (mus.src.includes("mus.svg") || mus.src.includes("musLuk.png")) {
-        mus.src = "img/musAben.svg";
+        mus.src = "img/mus-aben.svg";
         musSound.play();
         createShellBubbles(); // lav bobler når muslingen åbner
       } else {
@@ -220,7 +220,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const puffish3 = document.getElementById("puffish3");
 
   const bigPufferImage = new Image();
-  bigPufferImage.src = "img/pufferFiskStor.gif";
+  bigPufferImage.src = "img/puffer-fisk-stor.gif";
 
   //oppustnings lyd
   const poofSound = new Audio();
@@ -233,11 +233,11 @@ document.addEventListener("DOMContentLoaded", () => {
   if (puffish) {
     puffish.addEventListener("click", function () {
       // skift mellem flat og big pufferfish
-      if (puffish.src.includes("pufferFiskLille.gif")) {
-        puffish.src = "img/pufferFiskStor.gif";
+      if (puffish.src.includes("puffer-fisk-lille.gif")) {
+        puffish.src = "img/puffer-fisk-stor.gif";
         poofSound.play();
       } else {
-        puffish.src = "img/pufferFiskLille.gif";
+        puffish.src = "img/puffer-fisk-lille.gif";
         puffSound.play();
       }
     });
@@ -246,11 +246,11 @@ document.addEventListener("DOMContentLoaded", () => {
   if (puffish2) {
     puffish2.addEventListener("click", function () {
       // skift mellem flat og big pufferfish
-      if (puffish2.src.includes("pufferFiskLille.gif")) {
-        puffish2.src = "img/pufferFiskStor.gif";
+      if (puffish2.src.includes("puffer-fisk-lille.gif")) {
+        puffish2.src = "img/puffer-fisk-stor.gif";
         poofSound.play();
       } else {
-        puffish2.src = "img/pufferFiskLille.gif";
+        puffish2.src = "img/puffer-fisk-lille.gif";
         puffSound.play();
       }
     });
@@ -259,11 +259,11 @@ document.addEventListener("DOMContentLoaded", () => {
   if (puffish3) {
     puffish3.addEventListener("click", function () {
       // skift mellem flat og big pufferfish
-      if (puffish3.src.includes("pufferFiskLille.gif")) {
-        puffish3.src = "img/pufferFiskStor.gif";
+      if (puffish3.src.includes("puffer-fisk-lille.gif")) {
+        puffish3.src = "img/puffer-fisk-stor.gif";
         poofSound.play();
       } else {
-        puffish3.src = "img/pufferFiskLille.gif";
+        puffish3.src = "img/puffer-fisk-lille.gif";
         puffSound.play();
       }
     });
@@ -278,13 +278,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const tuxDam = tuxieToggle.currentTarget;
 
     if (
-      tuxDam.src.includes("damselFiskTuxedo.gif") ||
+      tuxDam.src.includes("damsel-fisk-tuxedo.gif") ||
       tuxDam.src.includes("tuxedo-fish.gif") ||
       tuxDam.src.includes("damsel-fisk-swim.gif")
     ) {
-      tuxDam.src = "img/damselFisk.gif";
+      tuxDam.src = "img/damsel-fisk.gif";
     } else {
-      tuxDam.src = "img/damselFiskTuxedo.gif";
+      tuxDam.src = "img/damsel-fisk-tuxedo.gif";
     }
 
     magicSound.play();
