@@ -11,34 +11,36 @@
   <body>
     <!-- Tilbage knap -->
     <header>
-      <a href="../index.html" id="backBtn">←</a>
+      <nav>
+        <a href="../index.html" id="backBtn">←</a>
+      </nav>
     </header>
 
     <!-- Start skærm -->
-    <div id="startScreen">
+    <aside id="startScreen">
       <h1>Akvarie Spillet</h1>
 
-      <div class="mascot-intro">
+      <figure class="mascot-intro">
         <img
           src="../img/nemoFish.png"
           alt="Nemo maskot"
           class="intro-mascot"
           id="startMascot"
         />
-        <div class="intro-bubble">
+        <figcaption class="intro-bubble">
           <p>Styr dykkern med piletasterne og saml skraldet!</p>
-        </div>
-      </div>
+        </figcaption>
+      </figure>
 
       <button id="startknap">Start Spil</button>
-    </div>
+    </aside>
 
     <!-- Game container -->
-    <div class="game-container">
-      <h1 class="game-title">Akvarie Spillet</h1>
+    <main class="game-container">
+      <h2 class="game-title">Akvarie Spillet</h2>
 
       <!-- Spil indhold -->
-      <div id="game">
+      <section id="game">
         <div id="score">Score: <span id="points">0</span></div>
         <div id="dodger"></div>
         <div id="coin">
@@ -47,22 +49,21 @@
         <div class="structure" id="wall1"></div>
         <div class="structure" id="wall2"></div>
         <div class="structure" id="wall3"></div>
-      </div>
+      </section>
 
       <!-- Info boks til kontroller -->
-      <div class="controls-info">
+      <aside class="controls-info">
         <p>Brug piletasterne for at styre dykkeren</p>
         <p>Pas på tanget og saml skraldet op fra havet af!</p>
-      </div>
-    </div>
+      </aside>
+    </main>
 
-    
     <!-- Game over skærm -->
-    <div id="gameOverScreen" style="display: none">
-      <h1>Spillet er slut!</h1>
+    <aside id="gameOverScreen">
+      <h2>Spillet er slut!</h2>
       <p>Din score: <span id="finalScore">0</span></p>
       <button id="restartButton">Spil igen</button>
-    </div>
+    </aside>
 
     <script src="../js/game-2.js"></script>
   </body>
